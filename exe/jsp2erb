@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "jsp2erb"
+
+jsp = $stdin.read
+$stdout.print Jsp2erb.convert(jsp)
